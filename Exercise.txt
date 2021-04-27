@@ -1,0 +1,22 @@
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir LinuxGit
+3) Зайти в папку - cd LinuxGit
+4) Создать 3 папки - mkdir {folder,folder1,folder2}
+5) Зайти в любоую папку - cd folder
+6) Создать 5 файлов (3 txt, 2 json) - touch text1.txt text2.txt text3.txt car.json human.json
+7) Создать 3 папки - mkdir -p foldername/foldername2/foldername3
+8) Вывести список содержимого папки - ls
+9) + Открыть любой txt файл - vim text1.txt
+10) + написать туда что-нибудь, любой текст - i "Hello World"
+11) + сохранить и выйти - :wq
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку -  mv text1.txt text2.txt foldername/
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку - cp human.json car.json foldername/foldername2/
+15) Найти файл по имени - find / -type f -name "Homework1.txt"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает - tail -f auth.log
+17) вывести несколько первых строк из текстового файла - grep -iB2 "создать" Homework1.txt
+18) вывести несколько последних строк из текстового файла - grep -iA2 "посмотреть" Homework1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает - less Homework1.txt
+20) вывести дату и время - date
+
